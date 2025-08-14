@@ -1,0 +1,36 @@
+ .about-section {
+  background: #0d0d0d;
+  color: white;
+}
+
+.section-title .highlight {
+  background: linear-gradient(90deg, #00ffd5, #008cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 255, 213, 0.2);
+  box-shadow: 0 0 20px rgba(0, 255, 213, 0.1);
+}
+
+.about-btn {
+  background: linear-gradient(90deg, #00ffd5, #008cff);
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
+}
+
+.about-btn:hover {
+  transform: translateY(-3px);
+}
+
+.about-image img {
+  border: 1px solid rgba(0, 255, 213, 0.2);
+  box-shadow: 0 0 30px rgba(0, 255, 213, 0.2);
+  border-radius: 20px;
+}

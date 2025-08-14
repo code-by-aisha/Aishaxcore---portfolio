@@ -1,0 +1,45 @@
+ .footer {
+  position: relative;
+  background: linear-gradient(180deg, #0d1b2a, #000);
+  color: white;
+  padding: 3rem 1rem;
+  overflow: hidden;
+}
+
+.footer-bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 9rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.05);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.footer-content {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00ffd5;
+}
+
+@media (max-width: 768px) {
+  .footer-bg-text {
+    font-size: 4rem;
+  }
+}
