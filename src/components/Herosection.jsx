@@ -1,6 +1,6 @@
  import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll"; 
-import "../styles/hero.css";
+import "../Styles/hero.css";
 import heroBg from "../assets/hero-bg.jpg";
 import { FaArrowDown } from "react-icons/fa"; 
 
